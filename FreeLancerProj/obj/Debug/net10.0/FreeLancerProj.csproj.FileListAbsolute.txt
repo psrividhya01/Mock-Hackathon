@@ -1,0 +1,5 @@
+/Users/RishubRM/Desktop/RiderProjects/FreeLancerProj/FreeLancerProj/obj/Debug/net10.0/FreeLancerProj.GeneratedMSBuildEditorConfig.editorconfig
+/Users/RishubRM/Desktop/RiderProjects/FreeLancerProj/FreeLancerProj/obj/Debug/net10.0/FreeLancerProj.AssemblyInfoInputs.cache
+/Users/RishubRM/Desktop/RiderProjects/FreeLancerProj/FreeLancerProj/obj/Debug/net10.0/FreeLancerProj.AssemblyInfo.cs
+/Users/RishubRM/Desktop/RiderProjects/FreeLancerProj/FreeLancerProj/obj/Debug/net10.0/FreeLancerProj.csproj.CoreCompileInputs.cache
+/Users/RishubRM/Desktop/RiderProjects/FreeLancerProj/FreeLancerProj/obj/Debug/net10.0/FreeLancerProj.csproj.AssemblyReference.cache

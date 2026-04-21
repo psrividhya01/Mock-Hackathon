@@ -1,0 +1,7 @@
+﻿services:
+  freelancerproj:
+    image: freelancerproj
+    build:
+      context: .
+      dockerfile: FreeLancerProj/Dockerfile
+
