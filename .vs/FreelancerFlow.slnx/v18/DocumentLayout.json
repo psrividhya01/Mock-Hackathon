@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\dtos\\client\\createclientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\dtos\\client\\createclientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\repositories\\implementation\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\repositories\\implementation\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\services\\implementations\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\services\\implementations\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\services\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\services\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\repositories\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\repositories\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\dtos\\client\\clientresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\dtos\\client\\clientresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|c:\\users\\adhis\\source\\repos\\mock-hackathon\\freelancerflow.api\\dtos\\task\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D55950-007E-EA0B-4934-9F041490EF83}|FreelancerFlow.API\\FreelancerFlow.API.csproj|solutionrelative:freelancerflow.api\\dtos\\task\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\DTOs\\Task\\CreateTaskDto.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\DTOs\\Task\\CreateTaskDto.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\DTOs\\Task\\CreateTaskDto.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\DTOs\\Task\\CreateTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:47:58.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClientResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\DTOs\\Client\\ClientResponseDto.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\DTOs\\Client\\ClientResponseDto.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\DTOs\\Client\\ClientResponseDto.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\DTOs\\Client\\ClientResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:47:53.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateClientDto.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\DTOs\\Client\\CreateClientDto.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\DTOs\\Client\\CreateClientDto.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\DTOs\\Client\\CreateClientDto.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\DTOs\\Client\\CreateClientDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:47:44.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:36:24.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Services\\Implementations\\ClientService.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\Services\\Implementations\\ClientService.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Services\\Implementations\\ClientService.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\Services\\Implementations\\ClientService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:35:34.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Services\\Interfaces\\IClientService.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\Services\\Interfaces\\IClientService.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Services\\Interfaces\\IClientService.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\Services\\Interfaces\\IClientService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:34:01.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Repositories\\Implementation\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\Repositories\\Implementation\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Repositories\\Implementation\\ClientRepository.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\Repositories\\Implementation\\ClientRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:31:51.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Repositories\\Interfaces\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\Repositories\\Interfaces\\IClientRepository.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Repositories\\Interfaces\\IClientRepository.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\Repositories\\Interfaces\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:31:24.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Program.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\Program.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Program.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:04:59.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:08:27.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\appsettings.json",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\appsettings.json",
+              "RelativeToolTip": "FreelancerFlow.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-21T08:04:34.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:03:42.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Models\\Invoice.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\Models\\Invoice.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:03:13.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Models\\TaskItem.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:02:50.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "FreelancerFlow.API\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\adhis\\source\\repos\\Mock-Hackathon\\FreelancerFlow.API\\Models\\Client.cs",
+              "RelativeToolTip": "FreelancerFlow.API\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T08:02:20.853Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
