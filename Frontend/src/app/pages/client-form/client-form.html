@@ -1,0 +1,60 @@
+<div class="form-wrapper">
+  <div class="form-card">
+
+    <div class="form-header">
+      <div class="icon-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+          <circle cx="12" cy="7" r="4"/>
+        </svg>
+      </div>
+      <h2>New Client</h2>
+      <p>Register a client to start tracking work</p>
+    </div>
+
+    <form [formGroup]="clientForm" (ngSubmit)="onSubmit()" novalidate>
+
+      <div class="field-group">
+        <label for="clientName">Client Name</label>
+        <input id="clientName" type="text" formControlName="clientName" placeholder="Full name"
+               [class.invalid]="submitted && f['clientName'].invalid" />
+        @if (submitted && f['clientName'].errors?.['required']) {
+          <span class="error">Client name is required.</span>
+        }
+        @if (submitted && f['clientName'].errors?.['minlength']) {
+          <span class="error">Minimum 3 characters required.</span>
+        }
+      </div>
+
+      <div class="field-group">
+        <label for="email">Email Address</label>
+        <input id="email" type="email" formControlName="email" placeholder="client@example.com"
+               [class.invalid]="submitted && f['email'].invalid" />
+        @if (submitted && f['email'].errors?.['required']) {
+          <span class="error">Email is required.</span>
+        }
+        @if (submitted && f['email'].errors?.['email']) {
+          <span class="error">Enter a valid email address.</span>
+        }
+      </div>
+
+      <div class="field-group">
+        <label for="hourlyRate">Hourly Rate (₹)</label>
+        <input id="hourlyRate" type="number" formControlName="hourlyRate" placeholder="e.g. 500"
+               [class.invalid]="submitted && f['hourlyRate'].invalid" />
+        @if (submitted && f['hourlyRate'].errors?.['required']) {
+          <span class="error">Hourly rate is required.</span>
+        }
+        @if (submitted && f['hourlyRate'].errors?.['min']) {
+          <span class="error">Rate must be at least ₹1.</span>
+        }
+      </div>
+
+      <div class="btn-row">
+        <button type="button" class="btn-secondary" (click)="onReset()">Reset</button>
+        <button type="submit" class="btn-primary">Create Client</button>
+      </div>
+
+    </form>
+  </div>
+</div>
