@@ -1,11 +1,12 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, FormBuilder, Validators } from '@angular/forms';
+import { Navbar } from '../../components/navbar/navbar';
 
 @Component({
   selector: 'app-client-form',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule, Navbar],
   templateUrl: './client-form.html',
   styleUrls: ['./client-form.css']
 })

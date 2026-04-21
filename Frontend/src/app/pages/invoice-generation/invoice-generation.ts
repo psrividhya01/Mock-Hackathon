@@ -5,11 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { Invoice } from '../../models/invoice';
 import { ClientDetail } from '../../models/client';
 import { InvoiceService } from '../../services/invoice-service';
+import { Navbar } from '../../components/navbar/navbar';
 
 @Component({
   selector: 'app-invoice-generation',
   standalone: true,
-  imports: [FormsModule, CommonModule],
+  imports: [FormsModule, CommonModule, Navbar],
   templateUrl: './invoice-generation.html',
   styleUrl: './invoice-generation.css'
 })

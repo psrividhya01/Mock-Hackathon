@@ -3,11 +3,12 @@ import { Invoice } from '../../models/invoice';
 import { InvoiceService } from '../../services/invoice-service';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { Navbar } from '../../components/navbar/navbar';
 
 @Component({
   selector: 'app-invoice-list',
   standalone: true,
-  imports: [FormsModule,CommonModule],
+  imports: [FormsModule,CommonModule, Navbar],
   templateUrl: './invoice-list.html',
   styleUrl: './invoice-list.css',
 })

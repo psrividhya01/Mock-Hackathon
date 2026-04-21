@@ -1,3 +1,4 @@
+<app-navbar></app-navbar>
 <div class="generate-container" *ngIf="client">
 
   <!-- Back Button -->
@@ -16,7 +17,7 @@
     <!-- Task Status List -->
     <div class="section-label">Task Status</div>
     <div class="task-list">
-      <div class="task-row" *ngFor="let task of client.tasks; let i = index">
+      <div class="task-row" *ngFor="let task of client.task; let i = index">
         <div class="task-left">
           <span class="task-index">Task {{ i + 1 }}</span>
           <span class="task-name">{{ task.taskName }}</span>

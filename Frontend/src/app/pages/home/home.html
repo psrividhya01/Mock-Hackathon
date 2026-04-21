@@ -1,0 +1,34 @@
+<div class="home-container">
+  <!-- Navigation Bar -->
+  <app-navbar></app-navbar>
+
+  <!-- Home Content -->
+  <div class="home-content">
+    <div class="welcome-section">
+      <h2>Welcome to Invoice Management System</h2>
+      <p>Manage your clients, tasks, and invoices all in one place.</p>
+      <div class="features-grid">
+        <div class="feature-card" (click)="navigateToClientForm()">
+          <div class="feature-icon">👤</div>
+          <h3>Create Client</h3>
+          <p>Add new clients to your system</p>
+        </div>
+        <div class="feature-card" (click)="navigateToTaskForm()">
+          <div class="feature-icon">✓</div>
+          <h3>Assign Task</h3>
+          <p>Create and assign tasks to clients</p>
+        </div>
+        <div class="feature-card" (click)="navigateToInvoiceGeneration()">
+          <div class="feature-icon">📄</div>
+          <h3>Generate Invoice</h3>
+          <p>Create invoices for your clients</p>
+        </div>
+        <div class="feature-card" (click)="navigateToInvoiceList()">
+          <div class="feature-icon">📋</div>
+          <h3>Invoice List</h3>
+          <p>View all generated invoices</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
