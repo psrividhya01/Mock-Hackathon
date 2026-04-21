@@ -6,4 +6,5 @@ export interface ClientDetail {
   email: string;
   hourlyrate: number;
   task: Task[];
+  
 }

@@ -39,7 +39,7 @@
         (click)="generateInvoice()"
         [disabled]="isLoading"
       >
-        <span *ngIf="!isLoading">
+        <span *ngIf="!isLoading" routeLink="/invoice-preview">
           {{ generatedInvoice ? 'Regenerate Invoice' : 'Generate Invoice' }}
         </span>
         <span *ngIf="isLoading" class="loading-text">

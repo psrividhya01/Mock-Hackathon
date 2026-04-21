@@ -4,6 +4,7 @@ export interface Invoice {
   totalAmount: number;
   status: 'paid' | 'unpaid' | 'pending';
   createdDate: string;
+  clientId: string;
 }
 
 export interface GenerateInvoiceRequest {

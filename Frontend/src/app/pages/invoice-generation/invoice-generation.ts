@@ -37,15 +37,45 @@ export class InvoiceGeneration implements OnInit {
       if (historyState?.client) {
         this.client = historyState.client;
       } else {
-        this.router.navigate(['/']);
+        // ✅ TEMP: dummy data for UI testing — remove before production
+        this.loadDummyData();
       }
     }
+  }
+
+  // ✅ TEMP: Remove this before production
+  loadDummyData(): void {
+    this.client = {
+      clientId: 'CLIENT-001',
+      clientName: 'Arjun Sharma',
+      email: 'arjun.sharma@gmail.com',
+      hourlyrate: 50,
+      task: [
+        {
+          taskId: 1, taskName: 'Design Landing Page', status: 'completed',
+          hoursWorked: 0,
+          description: '',
+          clientId: 0
+        },
+        {
+          taskId: 2, taskName: 'API Integration', status: 'in-progress',
+          hoursWorked: 0,
+          description: '',
+          clientId: 0
+        },
+        {
+          taskId: 3, taskName: 'Testing & QA',        status: 'pending',
+          hoursWorked: 0,
+          description: '',
+          clientId: 0
+        }
+      ]
+    };
   }
 
   generateInvoice(): void {
     if (!this.client) return;
 
-    // Reset state before every call
     this.isLoading = true;
     this.errorMessage = '';
     this.successMessage = '';
@@ -70,9 +100,9 @@ export class InvoiceGeneration implements OnInit {
 
   getTaskClass(status: string): string {
     switch (status) {
-      case 'completed':  return 'task-completed';
+      case 'completed':   return 'task-completed';
       case 'in-progress': return 'task-in-progress';
-      case 'pending':    return 'task-pending';
+      case 'pending':     return 'task-pending';
       default: return '';
     }
   }

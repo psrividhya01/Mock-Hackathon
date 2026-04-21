@@ -1,0 +1,105 @@
+<!-- Action Buttons — hidden on print -->
+<div class="action-bar no-print">
+  <button class="btn-back" (click)="goBack()">← Back</button>
+  <button class="btn-print" (click)="printInvoice()">🖨 Print / Save PDF</button>
+</div>
+
+<div class="invoice-wrapper" *ngIf="invoice && client">
+
+  <!-- HEADER -->
+  <div class="inv-header">
+    <div class="inv-logo-block">
+      <div class="inv-logo-icon">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+          <rect width="48" height="48" rx="10" fill="#e0f2fe"/>
+          <path d="M14 24c0-5.5 4.5-10 10-10s10 4.5 10 10-4.5 10-10 10" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="24" cy="24" r="4" fill="#0ea5e9"/>
+        </svg>
+      </div>
+      <h1 class="inv-title">Invoice</h1>
+    </div>
+    <div class="inv-company-block">
+      <p class="inv-company-name">{{ company.name }}</p>
+      <p class="inv-company-detail">{{ company.address }}</p>
+      <p class="inv-company-detail">{{ company.city }}</p>
+      <p class="inv-company-detail">{{ company.country }}</p>
+      <p class="inv-company-detail">{{ company.postal }}</p>
+    </div>
+  </div>
+
+  <div class="inv-divider"></div>
+
+  <!-- BILL TO + INVOICE META -->
+  <div class="inv-meta-row">
+    <div class="inv-bill-to">
+      <p class="inv-section-label">BILL TO:</p>
+      <p class="inv-client-name">{{ client.clientName }}</p>
+      <!-- <p class="inv-client-detail">{{ client.address }}</p>
+      <p class="inv-client-detail">{{ client.city }}</p>
+      <p class="inv-client-detail">{{ client.country }}</p>
+      <p class="inv-client-detail">{{ client.postal }}</p> -->
+    </div>
+    <div class="inv-invoice-meta">
+      <div class="inv-meta-item">
+        <span class="inv-meta-label">INVOICE #</span>
+        <span class="inv-meta-value">{{ invoice.invoiceId }}</span>
+      </div>
+      <div class="inv-meta-item">
+        <span class="inv-meta-label">DATE</span>
+        <span class="inv-meta-value">{{ invoice.createdDate | date:'MM/dd/yy' }}</span>
+      </div>
+      <div class="inv-meta-item">
+        <span class="inv-meta-label">INVOICE DUE DATE</span>
+        <span class="inv-meta-value">{{ getDueDate() }}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ITEMS TABLE -->
+  <div class="inv-table-wrapper">
+    <table class="inv-table">
+      <thead>
+        <tr>
+          <th class="col-item">ITEMS</th>
+          <th class="col-desc">DESCRIPTION</th>
+          <th class="col-qty">QUANTITY</th>
+          <th class="col-price">PRICE</th>
+          <th class="col-tax">TAX</th>
+          <th class="col-amount">AMOUNT</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let task of client.task; let i = index" class="inv-row">
+          <td class="col-item">{{ task.taskName }}</td>
+          <td class="col-desc">{{ task.description }}</td>
+          <td class="col-qty">1</td>
+          <td class="col-price">₹{{ task.amount | number:'1.0-0' }}</td>
+          <td class="col-tax">0%</td>
+          <td class="col-amount">₹{{ task.amount | number:'1.2-2' }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- NOTES + TOTAL -->
+  <div class="inv-footer-row">
+    <div class="inv-notes">
+      <p class="inv-notes-label">NOTES:</p>
+      <p class="inv-notes-text">
+        Thank you for your business. Payment is due within 30 days of invoice date.
+        Please make payment to the account details provided separately.
+      </p>
+    </div>
+    <div class="inv-total-block">
+      <p class="inv-total-label">TOTAL</p>
+      <p class="inv-total-amount">₹{{ getTotalAmount() | number:'1.2-2' }}</p>
+    </div>
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div class="inv-bottom-bar">
+    <p class="inv-powered">Powered by <strong>FreelanceApp</strong></p>
+    <p class="inv-powered-sub">This invoice was generated automatically from your project tasks.</p>
+  </div>
+
+</div>

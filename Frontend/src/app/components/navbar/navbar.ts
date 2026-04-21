@@ -8,21 +8,21 @@ import { Router } from '@angular/router';
     <nav class="navbar">
       <div class="navbar-brand">
         <button class="brand-btn" (click)="goHome()">
-          <h1 class="brand-title">Invoice Management</h1>
+          <h1 class="brand-title">Freelance Management</h1>
         </button>
       </div>
       <div class="navbar-menu">
         <button class="nav-btn" (click)="navigateToClientForm()">
-          <span class="nav-icon">👤</span> Create Client
+          <span class="nav-icon"></span> Create Client
         </button>
         <button class="nav-btn" (click)="navigateToTaskForm()">
-          <span class="nav-icon">✓</span> Assign Task
+          <span class="nav-icon"></span> Assign Task
         </button>
         <button class="nav-btn" (click)="navigateToInvoiceGeneration()">
-          <span class="nav-icon">📄</span> Generate Invoice
+          <span class="nav-icon"></span> Generate Invoice
         </button>
         <button class="nav-btn" (click)="navigateToInvoiceList()">
-          <span class="nav-icon">📋</span> Invoice List
+          <span class="nav-icon"></span> Invoice List
         </button>
       </div>
     </nav>

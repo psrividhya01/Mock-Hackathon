@@ -12,5 +12,6 @@ export const routes: Routes = [
   { path: 'task-form', component: TaskForm },
   { path: 'invoice-generation', component: InvoiceGeneration },
   { path: 'invoice-list', component: InvoiceList },
+  {path: 'invoice-preview', loadComponent: () => import('./pages/invoice-preview/invoice-preview').then(m => m.InvoicePreview) },
   { path: '**', redirectTo: '' }
 ];

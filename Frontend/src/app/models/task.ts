@@ -5,4 +5,5 @@ export interface Task {
   description: string;
   status:      'pending' | 'in-progress' | 'completed';
   clientId:    number;
+  amount?:      number; // Optional field to store calculated amount for the task
 }
