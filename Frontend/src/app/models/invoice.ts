@@ -1,15 +1,15 @@
 export interface Invoice {
-  invoiceId: string;
-  clientId: string;
+  invoiceId: number;
+  clientName: string;
   totalAmount: number;
   status: 'paid' | 'unpaid' | 'pending';
   createdDate: string;
 }
 
 export interface GenerateInvoiceRequest {
-  clientId: string;
+  clientName: string;
 }
 
 export interface MarkPaidRequest {
-  invoiceId: string;
+  invoiceId: number;
 }
