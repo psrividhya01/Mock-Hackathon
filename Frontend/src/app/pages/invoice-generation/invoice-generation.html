@@ -1,1 +1,80 @@
-<p>invoice-generation works!</p>
+<div class="generate-container" *ngIf="client">
+
+  <!-- Back Button -->
+  <button class="back-btn" (click)="goBack()">← Back to Clients</button>
+
+  <!-- Client Details Card -->
+  <div class="generate-card">
+    <div class="card-header">
+      <div class="client-avatar-lg">{{ client.clientName.charAt(0).toUpperCase() }}</div>
+      <div>
+        <h2 class="card-title">{{ client.clientName }}</h2>
+        <p class="card-subtitle">{{ client.email }} &nbsp;|&nbsp; ID: {{ client.clientId }}</p>
+      </div>
+    </div>
+
+    <!-- Task Status List -->
+    <div class="section-label">Task Status</div>
+    <div class="task-list">
+      <div class="task-row" *ngFor="let task of client.tasks; let i = index">
+        <div class="task-left">
+          <span class="task-index">Task {{ i + 1 }}</span>
+          <span class="task-name">{{ task.taskName }}</span>
+        </div>
+        <span class="task-badge" [ngClass]="getTaskClass(task.status)">
+          {{ task.status | titlecase }}
+        </span>
+      </div>
+    </div>
+
+    <!-- Alerts -->
+    <div *ngIf="errorMessage" class="alert alert-error">{{ errorMessage }}</div>
+    <div *ngIf="successMessage" class="alert alert-success">{{ successMessage }}</div>
+
+    <!-- Generate Button -->
+    <div class="action-row">
+      <button
+        class="btn btn-generate"
+        (click)="generateInvoice()"
+        [disabled]="isLoading"
+      >
+        <span *ngIf="!isLoading">
+          {{ generatedInvoice ? 'Regenerate Invoice' : 'Generate Invoice' }}
+        </span>
+        <span *ngIf="isLoading" class="loading-text">
+          <span class="btn-spinner"></span> Generating...
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Generated Invoice Preview -->
+  <div *ngIf="generatedInvoice" class="invoice-preview">
+    <div class="preview-header">
+      <h3 class="preview-title">Invoice Generated</h3>
+      <span class="badge" [ngClass]="getStatusClass(generatedInvoice.status)">
+        {{ generatedInvoice.status | titlecase }}
+      </span>
+    </div>
+
+    <div class="preview-grid">
+      <div class="preview-item">
+        <span class="preview-label">Invoice ID</span>
+        <span class="preview-value mono">{{ generatedInvoice.invoiceId }}</span>
+      </div>
+      <div class="preview-item">
+        <span class="preview-label">Client Name</span>
+        <span class="preview-value">{{ generatedInvoice.clientName }}</span>
+      </div>
+      <div class="preview-item">
+        <span class="preview-label">Total Amount</span>
+        <span class="preview-value amount">₹ {{ generatedInvoice.totalAmount | number:'1.2-2' }}</span>
+      </div>
+      <div class="preview-item">
+        <span class="preview-label">Created Date</span>
+        <span class="preview-value">{{ generatedInvoice.createdDate | date:'dd MMM yyyy, hh:mm a' }}</span>
+      </div>
+    </div>
+  </div>
+
+</div>

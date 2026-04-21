@@ -1,1 +1,64 @@
-<p>invoice-list works!</p>
+<div class="invoice-list-container">
+  <div class="list-header">
+    <h2 class="section-title">Invoices</h2>
+    <div class="filter-row">
+      <input
+        type="text"
+        [(ngModel)]="filterClientName"
+        placeholder="Filter by Client Name..."
+        class="filter-input"
+      />
+      <button class="btn btn-filter" (click)="filterByClient()">Filter</button>
+      <button class="btn btn-clear" (click)="clearFilter()">Clear</button>
+    </div>
+  </div>
+
+  <div *ngIf="successMessage" class="alert alert-success">{{ successMessage }}</div>
+  <div *ngIf="errorMessage" class="alert alert-error">{{ errorMessage }}</div>
+
+  <div *ngIf="isLoading" class="loading-state">
+    <div class="spinner"></div>
+    <p>Loading invoices...</p>
+  </div>
+
+  <div *ngIf="!isLoading && filteredInvoices.length === 0 && !errorMessage" class="empty-state">
+    <p>No invoices found.</p>
+  </div>
+
+  <div *ngIf="!isLoading && filteredInvoices.length > 0" class="table-wrapper">
+    <table class="invoice-table">
+      <thead>
+        <tr>
+          <th>Invoice ID</th>
+          <th>Client Name</th>
+          <th>Total Amount</th>
+          <th>Status</th>
+          <th>Created Date</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let invoice of filteredInvoices" class="table-row">
+          <td class="mono">{{ invoice.invoiceId }}</td>
+          <td class="mono">{{ invoice.clientName }}</td>
+          <td class="amount">₹ {{ invoice.totalAmount | number:'1.2-2' }}</td>
+          <td>
+            <span class="badge" [ngClass]="getStatusClass(invoice.status)">
+              {{ invoice.status | titlecase }}
+            </span>
+          </td>
+          <td>{{ invoice.createdDate | date:'dd MMM yyyy' }}</td>
+          <td>
+            <button
+              class="btn btn-pay"
+              [disabled]="invoice.status === 'paid'"
+              (click)="markAsPaid(invoice.invoiceId.toString())"
+            >
+              {{ invoice.status === 'paid' ? 'Paid' : 'Mark Paid' }}
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
