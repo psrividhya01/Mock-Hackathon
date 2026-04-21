@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FreelancerFlow.API.Enums;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FreelancerFlow.API.Models
@@ -17,7 +18,7 @@ namespace FreelancerFlow.API.Models
 
         public string Description { get; set; } = string.Empty;
 
-        public string Status { get; set; } = "Unbilled";
+        public TaskItemStatus Status { get; set; } = TaskItemStatus.UnBilled; // Use enum
 
         public int? InvoiceId { get; set; }
     }

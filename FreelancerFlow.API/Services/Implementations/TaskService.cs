@@ -1,4 +1,5 @@
 using FreelancerFlow.API.DTOs.Task;
+using FreelancerFlow.API.Enums;
 using FreelancerFlow.API.Models;
 using FreelancerFlow.API.Repositories.Interfaces;
 using FreelancerFlow.API.Services.Interfaces;
@@ -21,7 +22,7 @@ namespace FreelancerFlow.API.Services.Implementations
                 ClientId = dto.ClientId,
                 HoursWorked = dto.HoursWorked,
                 Description = dto.Description,
-                Status = "Unbilled"
+                Status = TaskItemStatus.UnBilled
             };
 
             var result = await _repository.AddTask(task);
@@ -32,7 +33,7 @@ namespace FreelancerFlow.API.Services.Implementations
                 ClientId = result.ClientId,
                 HoursWorked = result.HoursWorked,
                 Description = result.Description,
-                Status = result.Status
+                Status = result.Status.ToString()
             };
         }
 
@@ -46,7 +47,7 @@ namespace FreelancerFlow.API.Services.Implementations
                 ClientId = t.ClientId,
                 HoursWorked = t.HoursWorked,
                 Description = t.Description,
-                Status = t.Status
+                Status = t.Status.ToString()
             }).ToList();
         }
 
@@ -60,7 +61,7 @@ namespace FreelancerFlow.API.Services.Implementations
                 ClientId = t.ClientId,
                 HoursWorked = t.HoursWorked,
                 Description = t.Description,
-                Status = t.Status
+                Status = t.Status.ToString()
             }).ToList();
         }
     }

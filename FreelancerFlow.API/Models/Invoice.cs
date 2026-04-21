@@ -1,4 +1,6 @@
-﻿namespace FreelancerFlow.API.Models
+﻿using FreelancerFlow.API.Enums;
+
+namespace FreelancerFlow.API.Models
 {
     public class Invoice
     {
@@ -8,10 +10,10 @@
 
         public Client Client { get; set; } // Navigation
 
-        public decimal TotalAmount { get; set; } // Total price
+        public double TotalAmount { get; set; } // Total price as double
 
-        public string Status { get; set; } // Unpaid / Paid
+        public InvoiceStatus Status { get; set; } = InvoiceStatus.Unpaid; // Status as enum
 
-        public DateTime CreatedDate { get; set; } // Date created
+        public DateTime CreatedAt { get; set; } // Date created
     }
 }

@@ -1,6 +1,6 @@
 namespace FreelancerFlow.API.DTOs.Task
 {
-    public class TaskResponseDto
+    public class TaskDto
     {
         public int TaskId { get; set; }
         public int ClientId { get; set; }

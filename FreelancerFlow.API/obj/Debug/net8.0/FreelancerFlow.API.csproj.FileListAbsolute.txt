@@ -139,3 +139,4 @@ C:\Users\adhis\source\repos\Mock-Hackathon\FreelancerFlow.API\obj\Debug\net8.0\F
 C:\Users\adhis\source\repos\Mock-Hackathon\FreelancerFlow.API\obj\Debug\net8.0\FreelancerFlow.API.genruntimeconfig.cache
 C:\Users\adhis\source\repos\Mock-Hackathon\FreelancerFlow.API\obj\Debug\net8.0\ref\FreelancerFlow.API.dll
 C:\Users\adhis\source\repos\Mock-Hackathon\FreelancerFlow.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\adhis\source\repos\Mock-Hackathon\FreelancerFlow.API\obj\Debug\net8.0\FreelancerFlow.API.sourcelink.json

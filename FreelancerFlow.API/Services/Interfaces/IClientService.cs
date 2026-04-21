@@ -6,5 +6,7 @@ namespace FreelancerFlow.API.Services.Interfaces
     {
         Task<ClientResponseDto> CreateClient(CreateClientDto dto);
         Task<List<ClientResponseDto>> GetClients();
+
+        
     }
 }

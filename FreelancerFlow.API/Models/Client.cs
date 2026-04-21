@@ -4,10 +4,10 @@
     {
         public int ClientId { get; set; }   // Primary Key
 
-        public string Name { get; set; }    // Client name
+        public string Name { get; set; } = string.Empty;    // Client name
 
-        public string Email { get; set; }   // Client email
+        public string? Email { get; set; }   // Client email (nullable)
 
-        public decimal HourlyRate { get; set; } // Rate per hour
+        public double HourlyRate { get; set; } // Rate per hour - using double like old project
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using FreelancerFlow.API.Models;
+using FreelancerFlow.API.Enums;
 
 namespace FreelancerFlow.API.Data
 {
@@ -17,6 +18,15 @@ namespace FreelancerFlow.API.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<TaskItem>().HasKey(t => t.TaskId);
+            
+            // Configure enums to be stored as strings in database
+            modelBuilder.Entity<Invoice>()
+                .Property(i => i.Status)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<TaskItem>()
+                .Property(t => t.Status)
+                .HasConversion<string>();
         }
     }
 }
